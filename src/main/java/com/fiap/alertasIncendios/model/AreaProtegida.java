@@ -21,7 +21,6 @@ public class AreaProtegida {
     @JoinColumn(name = "id_alerta")
     private AlertaQueimada alertaQueimada;
 
-    // Getters e Setters
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 

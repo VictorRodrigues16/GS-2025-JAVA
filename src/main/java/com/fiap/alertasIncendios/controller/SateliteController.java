@@ -27,10 +27,6 @@ public class SateliteController {
 
     @GetMapping("/{id}")
     public ResponseEntity<Satelite> getById(@PathVariable Long id) {
-        // quero um retorno que caso nao encontre mostre uma mensagem de erro
-
-        // e caso encontre mostre o satelite
-        // e o status 200
 
         Optional<Satelite> satelite = service.findById(id);
         return satelite.map(ResponseEntity::ok).orElse(ResponseEntity.status(404).body(
