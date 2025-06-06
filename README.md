@@ -20,8 +20,6 @@ A ideia foi criar uma estrutura limpa e modular, que facilite futuras expansões
 - Spring Boot  
 - Spring Data JPA  
 - Maven  
-- Lombok  
-- Swagger (OpenAPI)  
 - Banco de dados Oracle
 
 ## Endpoints da API
